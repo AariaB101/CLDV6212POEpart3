@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLDV6212PoePart3", "CLDV6212PoePart3\CLDV6212PoePart3.csproj", "{C22A83CE-12C1-4B87-A7DB-5FBA5C860279}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8ECC858-5617-4204-99DF-984AAF489C6B} = {C8ECC858-5617-4204-99DF-984AAF489C6B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsPOE", "FunctionsPOE\FunctionsPOE.csproj", "{C8ECC858-5617-4204-99DF-984AAF489C6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C22A83CE-12C1-4B87-A7DB-5FBA5C860279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22A83CE-12C1-4B87-A7DB-5FBA5C860279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22A83CE-12C1-4B87-A7DB-5FBA5C860279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22A83CE-12C1-4B87-A7DB-5FBA5C860279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8ECC858-5617-4204-99DF-984AAF489C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8ECC858-5617-4204-99DF-984AAF489C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8ECC858-5617-4204-99DF-984AAF489C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8ECC858-5617-4204-99DF-984AAF489C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F167AC4-388F-4FE6-BC81-4A22C2487FB2}
+	EndGlobalSection
+EndGlobal
