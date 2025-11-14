@@ -1,0 +1,44 @@
+﻿@model CLDV6212PoePart3.Models.Order
+
+@{
+    var customers = ViewData["Customer"] as List<CLDV6212PoePart3.Models.Customer>;
+    var products = ViewData["Product"] as List<CLDV6212PoePart3.Models.Product>;
+
+
+}
+
+<h1>Register</h1>
+
+@if (customers == null || customers.Count == 0 || products == null || products.Count == 0)
+{
+    <div class="alert alert-warning">
+        No customers or products available. Please ensure they are added first.
+    </div>
+}
+else
+{
+    <form asp-action="Register" method="post">
+        <div class="form-group">
+            <label asp-for="CustomerId">Select Customer</label>
+            <select asp-for="CustomerId" class="form-control"
+                    asp-items="@(new SelectList(customers, "CustomerId", "Name"))">
+                <option value="">-- Select Customer --</option>
+            </select>
+            <span asp-validation-for="CustomerId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ProductId">Select Product</label>
+            <select asp-for="ProductId" class="form-control"
+                    asp-items="@(new SelectList(products, "ProductId", "ProductName"))">
+                <option value="">-- Select Product --</option>
+            </select>
+            <span asp-validation-for="ProductId" class="text-danger"></span>
+
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Order</button>
+    </form>
+
+}
+
+
+

@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "connection": "DefaultEndpointsProtocol=https;AccountName=aaria;AccountKey=8cs2Wf31b6n529u+hjfC5vtVWlPLq7rXPWQHmz/e+vyQs1Djg3wTX2VKOGDRJ5Nhq55GetaEhkcC+AStP1XAZw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
+  }
+}
